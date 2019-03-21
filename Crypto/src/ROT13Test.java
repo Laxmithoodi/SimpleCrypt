@@ -51,7 +51,8 @@ public class ROT13Test {
     @Test
     public void cryptTest1() {
         // Given
-        ROT13 cipher = new ROT13('a', 'n');
+      //  ROT13 cipher = new ROT13('a', 'n');
+        ROT13 cipher = new ROT13();
 
         String Q1 = "Why did the chicken cross the road?";
         String A1 = "Jul qvq gur puvpxra pebff gur ebnq?";
@@ -76,7 +77,8 @@ public class ROT13Test {
     @Test
     public void cryptTest2() {
         // Given
-        ROT13 cipher = new ROT13('a', 'n');
+       // ROT13 cipher = new ROT13('a', 'n');
+        ROT13 cipher = new ROT13();
 
         String Q1 = "Why did the chicken cross the road?";
         System.out.println(Q1);
